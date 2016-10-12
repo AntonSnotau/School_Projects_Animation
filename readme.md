@@ -9,5 +9,7 @@
 4. Korzystając z wtyczki ze strony: http://lazylinepainter.info/
 Stwórz animację ikony z pliku: ```ikona.svg```
 
-5. Dla chętnych: Korzystając ze sprite ```man.png``` stwórz przykładową animację.
+5. Stwórz animację CSS korzystając ze sprite. Zadanie jest do rozwiązania jsfiddle [tutaj link](https://jsfiddle.net/pwkf3vLy/)
+
+6. Dla chętnych: Korzystając ze sprite ```man.png``` stwórz przykładową animację.
 [Tutorial w razie pomocy](http://kodcss.pl/kurs-css/lekcje/dzial-4/css3-animowany-obrazek-klatka-po-klatce)
