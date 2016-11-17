@@ -1,6 +1,12 @@
-#Animacje CSS - Zadania
+# Animacja z pseudoklasą :hover
 
-#Animacja z CSS sprite
+> Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sformatowany kod.
+
+-------------------------------------------------------------------------------
+
+## Zadania do samodzielnego wykonania
+
+### Animacja z CSS sprite  (~ 15min - 20min)
 
 Stwórz animację kroczącego zombie z wykorzystaniem CSS sprite.
 Link do obrazka: http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png
