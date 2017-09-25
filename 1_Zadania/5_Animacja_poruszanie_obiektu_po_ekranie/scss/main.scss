@@ -1,0 +1,25 @@
+
+@keyframes flight {
+  0%{
+    transition: translate(0, 0);
+  }
+  10% {
+    transform: translate(0, 15vh);
+  }
+  40% {
+    transform: translate(83vw, 25vh);
+  }
+  60% {
+    transform: translate(78vw, 82vh);
+  }
+  90% {
+    transform: translate(7vw, 75vh);
+  }
+  100% {
+    transform: translate(6vw, 76vh) rotate(90deg) scale(0.5);
+  }
+}
+
+.falcon {
+  animation: flight 10s infinite;
+}

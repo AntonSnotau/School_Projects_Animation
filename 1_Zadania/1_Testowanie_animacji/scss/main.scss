@@ -1,0 +1,41 @@
+.big-red-box{
+  width: 200px;
+  height: 200px;
+  background: red;
+  // transform: rotate(45deg);
+  // transform: translate(100px, 200px);
+  // transform: scale(2);
+  // transform: skew(30deg, 20deg);
+  transition: 2s all ease;
+  transform-origin: 50% 50%;
+  &:hover{
+    transform: translate(50vw, 0) rotate(360deg) scale(2) ;
+    // transform:  translate(100%, 0);
+    background: black;
+  }
+}
+.big-orange-box{
+  width: 200px;
+  height: 200px;
+  background: orange;
+  animation: walking 10s infinite;
+}
+
+@keyframes walking {
+  0%{
+    transform: translate(0, 0);
+  }
+  15%{
+    transform: translate(50vw, 0);
+  }
+  35%{
+    transform: translate(50vw, 100%);
+  }
+  90%{
+    transform: translate(0, 100%)
+  }
+  100%{
+    transform: translate(0, 0);
+  }
+
+}

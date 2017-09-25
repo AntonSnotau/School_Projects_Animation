@@ -1,0 +1,42 @@
+.hand2 {
+  animation: hand 3s infinite;
+}
+.ear1 {
+  animation: ear1 3s infinite;
+}
+.ear2 {
+  animation: ear2 3s infinite;
+}
+
+@keyframes hand {
+  50% {
+    transform: rotate(-90deg);
+    transform-origin: 40% 40%;
+    transition: 3s;
+  }
+  100% {
+    transform: rotate(-45deg);
+    transform-origin: 50% 50%;
+    transition: 3s;
+  }
+}
+@keyframes ear2 {
+  50% {
+    transform: translate(5px, 5px);
+    transition: 3s;
+  }
+  100% {
+    transform: translate(0, 0);
+    transition: 3s;
+  }
+}
+@keyframes ear1 {
+  50% {
+    transform: translate(-5px, -5px);
+    transition: 3s;
+  }
+  100% {
+    transform: translate(0, 0);
+    transition: 3s;
+  }
+}

@@ -1,0 +1,12 @@
+@keyframes boom {
+  0% {
+    transform: rotate(45deg); }
+  20% {
+    transform: translate(300px, 0); }
+  100% {
+    transform: rotate(0deg) translate(0, 0); } }
+
+.red-button:hover {
+  animation: boom 10s infinite; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJAa2V5ZnJhbWVzIGJvb20ge1xuICAwJSB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGUoNDVkZWcpO1xuICB9XG4gIDIwJSB7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMzAwcHgsIDApO1xuICB9XG4gIDEwMCUge1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpIHRyYW5zbGF0ZSgwLCAwKTtcbiAgfVxufVxuLnJlZC1idXR0b246aG92ZXIge1xuICBhbmltYXRpb246IGJvb20gMTBzIGluZmluaXRlO1xufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFVBQVUsQ0FBVixJQUFVO0VBQ1IsQUFBQSxFQUFFO0lBQ0EsU0FBUyxFQUFFLGFBQWE7RUFFMUIsQUFBQSxHQUFHO0lBQ0QsU0FBUyxFQUFFLG1CQUFtQjtFQUVoQyxBQUFBLElBQUk7SUFDRixTQUFTLEVBQUUsWUFBWSxDQUFDLGVBQWU7O0FBRzNDLEFBQUEsV0FBVyxBQUFBLE1BQU0sQ0FBQztFQUNoQixTQUFTLEVBQUUsaUJBQWlCLEdBQzdCIn0= */
